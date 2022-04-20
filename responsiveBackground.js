@@ -13,4 +13,4 @@ function screenTest(e) {
   }
 }
 
-mql.addEventListener('resize', screenTest);
+mql.addEventListener('change', screenTest);
